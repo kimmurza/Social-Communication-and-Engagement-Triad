@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="my-great-book">
+    <title>The Social Communication and Engagement Triad</title>
+    <subtitle>Supporting the Unique Communication of Every Student</subtitle>
+
+    <frontmatter>
+    
+      <bibinfo>
+      <author>
+        <personname>Kim Murza</personname>
+        <department>Department of Communication Sciences and Disorders</department>
+        <institution>
+        <line>University of Northern Colorado</line>
+        <line>Greeley, Colorado, USA</line></institution>
+        <email>kim.murza@unco.edu</email>
+        <support>Statement about support received by the first author.</support>
+      </author>
+      <author>
+        <personname>P. Charlie Buckley</personname>
+        <affiliation>
+        <department>Department of Special Education, Early Childhood, and Culturally and Linguistically Diverse Education</department>
+        <institution>Metropolitan State University Denver</institution>
+        <location>Denver, Colorado, USA</location>
+        </affiliation>
+        <email>pbuckle3@msudenver.edu</email>
+        <support>Statement about support received by the second author.</support>
+      </author>
+<!-- Can set date manually or use the "today" element -->
+      <date><today/></date>
+      <keywords>
+      <keyword>samples</keyword><keyword>PreTeXt</keyword><keyword>testing document</keyword>
+      </keywords>
+      <keywords authority="msc" variant="2010">
+      <keyword primary="yes">00-01</keyword>
+      <keyword>00-02</keyword>
+      <keyword primary="no">00A99</keyword>
+      </keywords>
+      <support>
+      <p>
+        This is an example of a statement describing funding support for the current document.
+      </p>
+      </support>
+      </bibinfo>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      
+<!--
+Acknowledgements, dedications, colophon (ISBN, copyright, etc)
+are supported in the book document type.  Such a diverse range
+is not yet available for articles.  Send requests.
+-->
+    </frontmatter>
+    
+
+    <!-- Include chapters -->
+    <xi:include href="./ch-chapter-title.ptx" />
+<xi:include href="./ch-chapter-foundations.ptx" />
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>
